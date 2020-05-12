@@ -1,0 +1,182 @@
+/******************************
+GENERAL
+******************************/
+
+html {
+        background-color: #f9f3ec;
+}
+
+body {
+
+ font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    margin: 0 auto;
+    max-width:80%;
+    padding: 0em 0em 0em 0em;   
+    height: 1500px;
+}
+
+header{
+height: 120px;
+    width: 100%;
+    background: #5c848e;   
+border-bottom: 10px solid #d34c26;
+}
+
+a{
+     text-align: center;
+    text-decoration: none;
+      margin-left: auto;
+  margin-right: auto;
+       
+}
+
+
+h1{
+
+    margin: 25px 10px 10px 10px;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 2;
+    color: white;
+}
+
+h2{
+    font-size: 50px;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+
+h3{
+    margin: 0 0 1em 0;
+}
+
+p {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center; 
+    
+}
+
+.text {
+        max-width:100%;
+        font-weight: 200;
+       font-size: 24px; 
+        padding: 100px 120px 100px 120px; 
+    text-align: justify;
+     height: 940px;
+}
+
+
+td {
+      width: 100%;
+        padding: 12px 10px 12px 10px;
+    vertical-align:top;
+
+ }
+
+table {
+  width: 100%;
+    align-content: center;
+    
+}
+
+
+.buttons {
+    list-style: none;
+       color: black;  
+    display: flex;
+
+}
+
+
+.button_next {
+        margin-left: 65%;
+    float: right;
+}
+
+.button_back {
+        margin-left: 11.5%;
+}
+
+.underbuttons {
+    display: flex;
+      margin-left: 10%;
+    width: 100%;
+list-style: none;
+        font-size: 1.2em;
+    padding: 0px 0px 0px 63px;
+        margin-top: -20px;
+ }
+
+
+
+
+#logo {
+    float: left;
+    margin-left: 5%;
+}
+
+
+
+nav{
+    float: right;
+    width: 40%;
+    font-size: 2em;
+    margin:40px 10px 10px 10px;
+    text-align: right;
+        margin-right: 5%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+        width: 100%;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    font-weight: 600;
+    padding: 10px 40px;
+}
+
+.audiohear {
+  display: block;
+    width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.image {
+  display: block;
+      margin-left: auto;
+  margin-right: auto;
+    margin-top: 40px;
+}
+
+
+
+nav a, nav a:visited{
+    color: #fff;
+}
+
+nav a.selected, nav a:hover{
+    color: #fff;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+        margin-top: 280px;
+    clear: both;
+    color: #d34c26;
+}
