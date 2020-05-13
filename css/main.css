@@ -3,7 +3,7 @@ GENERAL
 ******************************/
 
 html {
-        background-color: #f9f3ec;
+        background-color: 000000;
 }
 
 body {
@@ -121,6 +121,13 @@ list-style: none;
 }
 
 
+#rect
+
+{
+  box-shadow:10px;   
+    
+}
+
 
 nav{
     float: right;
@@ -157,13 +164,23 @@ nav a{
 }
 
 .image {
-  display: block;
+    position: relative;
+   top: 220px;
+  left: 560px;
+  width: 300px;
       margin-left: auto;
   margin-right: auto;
     margin-top: 40px;
 }
 
-
+.aud {
+    position: relative;
+   top: 410px;
+  left: 460px;
+  width: 80px;
+      margin-left: auto;
+  margin-right: auto;
+}
 
 nav a, nav a:visited{
     color: #fff;
