@@ -11,7 +11,7 @@ body {
  font-family: "Open Sans", sans-serif;
     font-weight: 200;
     margin: 0 auto;
-    max-width:80%;
+    max-width:100%;
     padding: 0em 0em 0em 0em;   
     height: 1200px;
 }
@@ -29,7 +29,7 @@ border-bottom: 10px solid #d34c26;
 
   position: absolute;
     margin-top: -16%;
-    line-height: 30%;
+  line-height: 0.1;
  max-width: 80%;
     padding-top: 1%;
     padding-left: 1%;
@@ -74,16 +74,17 @@ h2{
 nav{
     float: right;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: right;
     margin-top: 40px;
+        margin-right: 40px;
 
 
 }
 
 nav ul{
     list-style: none;
-    margin: 0 0px;
+    margin: 0 0;
     padding: 0;
 }
 
@@ -94,7 +95,7 @@ display: inline-block;
 
 nav a{
     font-weight: 600;
-    padding: 20px 40px;
+    padding: 20px 20px 20px 20px;
         text-decoration: none;
 }
 
@@ -110,7 +111,7 @@ margin-left: 24%;
   margin-right: 24%;
     margin-top: 10%;
      border: 2px solid black;
-box-shadow: 3px 4px #888888;
+box-shadow: 2px 4px #888888;
   border-radius: 14px;
     
 }
