@@ -1,6 +1,3 @@
-/******************************
-GENERAL
-******************************/
 
 html {
         background-color: #ffffff;
@@ -12,6 +9,7 @@ body {
     font-weight: 200;
     margin: 0 auto;
     max-width:98%;
+    max-width:100%;
     padding: 0em 0em 0em 0em;   
     height: 1200px;
 }
@@ -30,12 +28,14 @@ border-bottom: 10px solid #d34c26;
   position: absolute;
     margin-top: -17%;
   line-height: 0.2;
+    margin-top: -16%;
+  line-height: 0.1;
+
  max-width: 80%;
     padding-top: 1%;
     padding-left: 2%;
      margin-left: 2%;
 }
-
 
 p{
 display: block;
@@ -72,6 +72,7 @@ h2{
 
 
 nav{
+
     float:right;
     width: 98%;
     font-size: 1.2em;
@@ -79,6 +80,10 @@ nav{
     margin-top: 40px;
         margin-right: 20px;
       margin-left: 20px;
+    
+
+
+
 }
 
 nav ul{
