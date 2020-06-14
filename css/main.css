@@ -4,22 +4,22 @@ html {
 }
 
 body {
-
  font-family: "Open Sans", sans-serif;
     font-weight: 200;
     margin: 0 auto;
-    max-width:98%;
     max-width:100%;
     padding: 0em 0em 0em 0em;   
-    height: 1200px;
+    height: 1600px;
+    
 }
 
 header{
-height: 100px;
+height: 60px;
     width: 100%;
-    background: #f5f6f6;   
-border-bottom: 10px solid #d34c26;
-    
+    background: #005799;   
+border-bottom: 7px solid #d34c26;
+position: fixed;
+      opacity: 0.9;
 }
 
 
@@ -37,33 +37,44 @@ border-bottom: 10px solid #d34c26;
      margin-left: 2%;
 }
 
-p{
-display: block;
-       font-size:1.8vw;   
+
+h3{
+    padding-top: 400px;
+    margin: 10px 10px 10px 10px;
+    font-size: 1.6em;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+        text-decoration: none;   
+    padding-left: 29%;
+    max-width:40%;
+    
 }
-
-
 
 h4{
       font-size:1vw;
 font-weight: 200;
-    
+
 }
 
 
-h1{
-
-    margin: 25px 10px 10px 10px;
-    font-size: 2.5em;
-    font-weight: 600;
+.employees {
+        font-size: 1.7em;
+    text-align: center;  
     line-height: 2;
-    color: black;
-        text-decoration: none;
+    max-width: 80%;
+    float: center;
+    padding: 40px 10px 10px 10px;
+    margin-left: 9%;
 }
+
+
+
+
 
 h2{
-    font-size:3vw;
-    padding: 20px 10px 10px 10px;
+    font-size:2.2vw;
+    padding: 10px 10px 10px 10px;
     text-align: center;
     font-weight: 600;
     color: black;
@@ -74,13 +85,11 @@ h2{
 nav{
 
     float:right;
-    width: 98%;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: right;
-    margin-top: 40px;
+    margin-top: 16px;
         margin-right: 20px;
       margin-left: 20px;
-    
 
 
 
@@ -89,16 +98,17 @@ nav{
 nav ul{
     list-style: none;
     margin: 0 0;
-    padding: 0;
+    padding-right: 40px;
 }
 
 nav li{
 display: inline-block;
 
+
 }
 
 nav a{
-    font-weight: 600;
+    font-weight: 400;
     padding: 10px 10px 10px 10px;
         text-decoration: none;
 }
@@ -113,10 +123,12 @@ nav a{
     background: #f5f6f6;
 margin-left: 24%;
   margin-right: 24%;
-    margin-top: 10%;
+    margin-top: 7%;
      border: 2px solid black;
 box-shadow: 2px 4px #888888;
   border-radius: 14px;
+    display: block;
+       font-size:1.8vw;  
     
 }
 
@@ -150,20 +162,184 @@ box-shadow: 2px 4px #888888;
 
 
 
+.back {
+      position: static;  
+margin-left: 47%;
+    margin-top: 5%;
+        padding-top: 1%;
+    padding-bottom: 2%;
+            max-width: 7%;
+}
+
+.device {
+       position: static;    
+    margin-left: 10%;
+       max-width: 20%;
+}
+
+
+
+.button1 {
+  background-color: none;
+           font-size:2.5vw;
+    position: static;
+     border: 3px solid red;
+box-shadow: 2px 4px #888888;
+        max-width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #f5f6f6;
+margin-left: 35%;
+  margin-right: 35%;
+    margin-top: 3%;
+           text-decoration: none;
+    text-align: center;
+      cursor: pointer;
+}
+
+
+.button2 {
+  background-color: none;
+           font-size:1.7vw;
+    position: static;
+     border: 3px solid red;
+box-shadow: 2px 4px #888888;
+        max-width: 80%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #f5f6f6;
+margin-left: 35%;
+  margin-right: 35%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+           text-decoration: none;
+    text-align: center;
+      cursor: pointer;
+}
+
+
+
+
+.button1:hover, .button2:hover {
+    
+    background-color: red;
+    color: white;
+}
+
+.button1:active, .button2:hover {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button1:visited, .button2:hover {
+  color: white;
+}
+
+
+a{
+    
+font-weight:400;
+  text-decoration: none;
+    
+}
+
+a:link {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+
+a:visited{
+    
+    color: black;
+}
+
 
 nav a, nav a:visited{
-    color: black;
+    color: white;
         text-decoration: none;
 }
 
 nav a.selected, nav a:hover{
-    color: black;
+    color: white;
 }
 
-.footer{
-    font-size: 20px;
-    text-align: center;
-        margin-top: 500px;
-    clear: both;
-    color: darkred;
+
+
+.start {
+        font-size: 1.8em;
+    text-align: center;  
+    line-height: 2; 
 }
+
+.logostart {
+         max-width: 24%;
+    padding: 10px 10px 10px 10px;
+    margin-left: 2%;
+}
+
+.audstart {
+    position: static;
+            max-width: 8%;
+    padding: 10px 10px 10px 10px;
+margin-top: 10%;
+    margin-left: 4%; 
+    
+}
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+        font-size: 1.2em;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: red;
+        font-size: 1.2em;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #005799;
+}
+
+/* Add a background color and some padding around the form */
+.contactform {
+    
+    margin-top: 10px;
+      border: 1px solid red;
+    font-size: 1.2em;
+  background-color: #f2f2f2;
+  padding: 20px;
+    max-width: 50%;
+margin-left: 26%
+}
+
+
+
+
+
+
+
+
+
+
+
+
