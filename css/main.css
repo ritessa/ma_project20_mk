@@ -156,10 +156,10 @@ box-shadow: 2px 4px #888888;
 
 .aud {
     position:absolute;
-    max-width:16%;
+    max-width:17%;
     height:auto;
- margin-left: 52%;
-    margin-top: -20%;
+ margin-left: 51%;
+    margin-top: -21%;
 }
 
 
@@ -183,14 +183,13 @@ margin-left: 45%;
 
 
 .button1 {
-  background-color: none;
            font-size:5vw;
     position: static;
-     border: 3px solid red;
+     border: 7px solid lightgray;
 box-shadow: 2px 4px #888888;
         max-width: 100%;
     padding: 1% 2% 1% 2%;
-    background: #f5f6f6;
+    background: red;
 margin-left: 18%;
   margin-right: 18%;
     margin-top: 3%;
@@ -199,20 +198,23 @@ margin-left: 18%;
     padding: 4% 2% 4% 2%;
     text-align: center;
       cursor: pointer;
+  color: white;
 }
 
 
 
 .button1:hover {
     
-    background-color: red;
-    color: white;
+    background-color: lightgray;
+    color: black;
+         border: 7px solid red;
 }
 
 .button1:active {
-  background-color: gray;
+  background-color: lightgray;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+         border: 7px solid red;
 }
 
 .button1:visited {
@@ -228,7 +230,7 @@ font-weight:400;
 }
 
 a:link {
-  color: black; 
+  color: white; 
   background-color: transparent; 
   text-decoration: none;
 }
@@ -236,7 +238,7 @@ a:link {
 
 a:visited{
     
-    color: black;
+    color: white;
 }
 
 
@@ -245,9 +247,6 @@ nav a, nav a:visited{
         text-decoration: none;
 }
 
-nav a.selected, nav a:hover{
-    color: white;
-}
 
 
 
