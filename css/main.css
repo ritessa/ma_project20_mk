@@ -185,7 +185,7 @@ margin-left: 45%;
 .button1 {
            font-size:5vw;
     position: static;
-     border: 7px solid lightgray;
+     border: 1px solid lightgray;
 box-shadow: 2px 4px #888888;
         max-width: 100%;
     padding: 1% 2% 1% 2%;
@@ -206,15 +206,14 @@ margin-left: 18%;
 .button1:hover {
     
     background-color: lightgray;
-    color: black;
-         border: 7px solid red;
+         border: 1px solid red;
 }
 
 .button1:active {
   background-color: lightgray;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-         border: 7px solid red;
+         border: 1px solid red;
 }
 
 .button1:visited {
