@@ -14,10 +14,10 @@ body {
 }
 
 header{
-height: 50px;
+height: 44px;
     width: 100%;
     background: #005799;   
-border-bottom: 5px solid #d34c26;
+border-bottom: 4px solid #d34c26;
 position: fixed;
       opacity: 0.9;
 }
@@ -87,9 +87,9 @@ nav{
     float:center;
     font-size: 1.2em;
     text-align: center;
-    margin-top: 11px;
-        margin-right: 20%;
-      margin-left: 18%;
+    margin-top: 10px;
+        margin-right: 8%;
+      margin-left: 0%;
 
 
 
